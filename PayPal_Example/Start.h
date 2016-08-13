@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PayPalMobile.h"
 
 @interface Start : UIViewController
+
+@property (nonatomic, strong, readwrite) PayPalConfiguration *payPalConfiguration;
+
+
 
 
 @end

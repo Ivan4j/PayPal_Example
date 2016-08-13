@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67E77CEC615BB98E65CDBA16 /* Pods_PayPal_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7323954ABF8C727DE24FB141 /* Pods_PayPal_Example.framework */; };
 		DF3F50B01D5F6B260059C9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50AF1D5F6B260059C9C7 /* main.m */; };
 		DF3F50B31D5F6B260059C9C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50B21D5F6B260059C9C7 /* AppDelegate.m */; };
 		DF3F50B61D5F6B260059C9C7 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50B51D5F6B260059C9C7 /* Start.m */; };
@@ -14,9 +15,13 @@
 		DF3F50BC1D5F6B260059C9C7 /* PayPal_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50BA1D5F6B260059C9C7 /* PayPal_Example.xcdatamodeld */; };
 		DF3F50BE1D5F6B260059C9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3F50BD1D5F6B260059C9C7 /* Assets.xcassets */; };
 		DF3F50C11D5F6B260059C9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3F50BF1D5F6B260059C9C7 /* LaunchScreen.storyboard */; };
+		DF3F50CB1D5F6C8E0059C9C7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DF3F50CA1D5F6C8E0059C9C7 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A8E934A6784B027166C9CD4 /* Pods-PayPal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayPal_Example/Pods-PayPal_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D7889807AAE68B886B37BA1 /* Pods-PayPal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPal_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayPal_Example/Pods-PayPal_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7323954ABF8C727DE24FB141 /* Pods_PayPal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3F50AB1D5F6B260059C9C7 /* PayPal_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPal_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3F50AF1D5F6B260059C9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF3F50B11D5F6B260059C9C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		DF3F50BD1D5F6B260059C9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF3F50C01D5F6B260059C9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF3F50C21D5F6B260059C9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3F50CA1D5F6C8E0059C9C7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E77CEC615BB98E65CDBA16 /* Pods_PayPal_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4130C68582A3307DD4202040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7323954ABF8C727DE24FB141 /* Pods_PayPal_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF3F50A21D5F6B260059C9C7 = {
 			isa = PBXGroup;
 			children = (
 				DF3F50AD1D5F6B260059C9C7 /* PayPal_Example */,
 				DF3F50AC1D5F6B260059C9C7 /* Products */,
+				EBCF105040FB7A3287DC49B7 /* Pods */,
+				4130C68582A3307DD4202040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +85,7 @@
 				DF3F50C21D5F6B260059C9C7 /* Info.plist */,
 				DF3F50BA1D5F6B260059C9C7 /* PayPal_Example.xcdatamodeld */,
 				DF3F50AE1D5F6B260059C9C7 /* Supporting Files */,
+				DF3F50CA1D5F6C8E0059C9C7 /* Podfile */,
 			);
 			path = PayPal_Example;
 			sourceTree = "<group>";
@@ -98,6 +116,15 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		EBCF105040FB7A3287DC49B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A8E934A6784B027166C9CD4 /* Pods-PayPal_Example.debug.xcconfig */,
+				2D7889807AAE68B886B37BA1 /* Pods-PayPal_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF3F50C51D5F6B260059C9C7 /* Build configuration list for PBXNativeTarget "PayPal_Example" */;
 			buildPhases = (
+				4CCDDFCF7757BD2B6C92A714 /* [CP] Check Pods Manifest.lock */,
 				DF3F50A71D5F6B260059C9C7 /* Sources */,
 				DF3F50A81D5F6B260059C9C7 /* Frameworks */,
 				DF3F50A91D5F6B260059C9C7 /* Resources */,
+				85FB85EC849DF34DC32B1FB6 /* [CP] Embed Pods Frameworks */,
+				6C83E26562D934CB18D2DF65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,11 +188,60 @@
 			files = (
 				DF3F50C11D5F6B260059C9C7 /* LaunchScreen.storyboard in Resources */,
 				DF3F50BE1D5F6B260059C9C7 /* Assets.xcassets in Resources */,
+				DF3F50CB1D5F6C8E0059C9C7 /* Podfile in Resources */,
 				DF3F50B91D5F6B260059C9C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CCDDFCF7757BD2B6C92A714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C83E26562D934CB18D2DF65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPal_Example/Pods-PayPal_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FB85EC849DF34DC32B1FB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPal_Example/Pods-PayPal_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF3F50A71D5F6B260059C9C7 /* Sources */ = {
@@ -280,6 +359,7 @@
 		};
 		DF3F50C61D5F6B260059C9C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8E934A6784B027166C9CD4 /* Pods-PayPal_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayPal_Example/Info.plist;
@@ -291,6 +371,7 @@
 		};
 		DF3F50C71D5F6B260059C9C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7889807AAE68B886B37BA1 /* Pods-PayPal_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayPal_Example/Info.plist;
@@ -319,6 +400,7 @@
 				DF3F50C71D5F6B260059C9C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
