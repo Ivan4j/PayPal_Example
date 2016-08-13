@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF3F50B01D5F6B260059C9C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50AF1D5F6B260059C9C7 /* main.m */; };
 		DF3F50B31D5F6B260059C9C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50B21D5F6B260059C9C7 /* AppDelegate.m */; };
-		DF3F50B61D5F6B260059C9C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50B51D5F6B260059C9C7 /* ViewController.m */; };
+		DF3F50B61D5F6B260059C9C7 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50B51D5F6B260059C9C7 /* Start.m */; };
 		DF3F50B91D5F6B260059C9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3F50B71D5F6B260059C9C7 /* Main.storyboard */; };
 		DF3F50BC1D5F6B260059C9C7 /* PayPal_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF3F50BA1D5F6B260059C9C7 /* PayPal_Example.xcdatamodeld */; };
 		DF3F50BE1D5F6B260059C9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3F50BD1D5F6B260059C9C7 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		DF3F50AF1D5F6B260059C9C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF3F50B11D5F6B260059C9C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF3F50B21D5F6B260059C9C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF3F50B41D5F6B260059C9C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF3F50B51D5F6B260059C9C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF3F50B41D5F6B260059C9C7 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		DF3F50B51D5F6B260059C9C7 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		DF3F50B81D5F6B260059C9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF3F50BB1D5F6B260059C9C7 /* PayPal_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayPal_Example.xcdatamodel; sourceTree = "<group>"; };
 		DF3F50BD1D5F6B260059C9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		DF3F50AD1D5F6B260059C9C7 /* PayPal_Example */ = {
 			isa = PBXGroup;
 			children = (
-				DF3F50B11D5F6B260059C9C7 /* AppDelegate.h */,
-				DF3F50B21D5F6B260059C9C7 /* AppDelegate.m */,
-				DF3F50B41D5F6B260059C9C7 /* ViewController.h */,
-				DF3F50B51D5F6B260059C9C7 /* ViewController.m */,
+				DF3F50C91D5F6B300059C9C7 /* Controller */,
+				DF3F50C81D5F6B2C0059C9C7 /* Main */,
 				DF3F50B71D5F6B260059C9C7 /* Main.storyboard */,
 				DF3F50BD1D5F6B260059C9C7 /* Assets.xcassets */,
 				DF3F50BF1D5F6B260059C9C7 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				DF3F50AF1D5F6B260059C9C7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF3F50C81D5F6B2C0059C9C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DF3F50B11D5F6B260059C9C7 /* AppDelegate.h */,
+				DF3F50B21D5F6B260059C9C7 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DF3F50C91D5F6B300059C9C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF3F50B41D5F6B260059C9C7 /* Start.h */,
+				DF3F50B51D5F6B260059C9C7 /* Start.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3F50B61D5F6B260059C9C7 /* ViewController.m in Sources */,
+				DF3F50B61D5F6B260059C9C7 /* Start.m in Sources */,
 				DF3F50BC1D5F6B260059C9C7 /* PayPal_Example.xcdatamodeld in Sources */,
 				DF3F50B31D5F6B260059C9C7 /* AppDelegate.m in Sources */,
 				DF3F50B01D5F6B260059C9C7 /* main.m in Sources */,
